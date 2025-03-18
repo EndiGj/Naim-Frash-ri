@@ -1,0 +1,112 @@
+:root {
+    --color-1: #09122c; /* Ngjyra e parë - blu e errët */
+    --color-2: #872341; /* Ngjyra e dytë - e kuqe e errët */
+    --color-3: #be3144; /* Ngjyra e tretë - e kuqe e ndezur */
+    --color-4: #e17564; /* Ngjyra e katërt - salmoni e çelët */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-1); /* Sfondi blu i errët */
+    color: var(--color-4); /* Teksti salmoni i çelët */
+}
+
+header {
+    background-color: var(--color-2); /* Sfondi i kuq i errët */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: var(--color-2); /* Ngjyra e kuqe e errët */
+    border-bottom: 2px solid var(--color-2);
+    padding-bottom: 10px;
+}
+
+.foto {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+button {
+    background-color: var(--color-3); /* Ngjyra e kuqe e ndezur */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: var(--color-4); /* Ngjyra salmoni e çelët */
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: var(--color-2); /* Sfondi i kuq i errët */
+    color: white;
+    margin-top: 40px;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+footer .social-icons a:hover {
+    color: var(--color-4); /* Ngjyra salmoni e çelët */
+}
